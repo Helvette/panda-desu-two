@@ -1,0 +1,94 @@
+body {
+	margin: 0;
+	color: white;
+	font-family: "Raleway", sans-serif;
+}
+
+.container-fluid {
+	width: 100%;
+}
+
+header {
+	height: 215px;
+	text-align: right;
+	padding: 80px 60px 0 0;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight: bold;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	font-size: 18px;
+}
+
+section {
+  min-height: 490px;
+  height: auto;
+  padding: 20px 0;
+}
+
+.image {
+	background-position: center;
+	background-size: cover;
+	filter: grayscale(100%); 
+	width: 100%;
+	margin: 0;
+}
+
+.first-img {
+	background-image: url(images/uno.jpg);
+	height: 440px;
+	margin: 0;
+}
+
+.about {
+ padding: 20px 25px;
+}
+
+.about p {
+	line-height: initial;
+}
+
+.about h5 {
+	margin: 28px 0;
+	font-weight: bold;
+}
+
+.second-img {
+	background-image: url(images/dos.jpg);
+	height: 810px;
+}
+
+.pictures .row {
+	padding-top: 40px;
+}
+
+img {
+	border: 5px solid white;
+}
+
+.third-img {
+	background-image: url(images/tres.jpg);
+	height: 810px;
+}
+
+footer {
+	padding: 10px 30px;
+	font-weight: bold;
+}
+
+
+@media (max-width: 600px) {
+	header, footer {
+		padding: 20px 0 0 0;
+		text-align: center;
+	}
+
+	p {
+		font-size: 16px;
+		text-align: center;
+	}
+}
